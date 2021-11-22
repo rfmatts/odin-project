@@ -1,0 +1,13 @@
+*{
+    font: roboto, sans-serif;
+}
+
+body{
+    background-color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 0px;
+}
