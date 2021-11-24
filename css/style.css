@@ -1,13 +1,82 @@
-*{
-    font: roboto, sans-serif;
+* {
+    font-family: 'Roboto';
 }
 
-body{
+body {
+    margin: 0px;
     background-color: #e5e7eb;
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+    color: #f9faf8;
 }
 
 .hero {
     background-color: #1f2937;
-    margin: 0px;
-    padding: 0px;
+    border: #1f2937 solid 1px;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+#secondary-text {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+#main-photo {
+    float: right;
+    width: 550px;
+    height: 250px;
+    background-color:rgb(130, 137, 146) ;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    color: #f9faf8;
+    border: #f9faf8 solid 2px;
+    background-color: #3882f6;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+#call {
+    display: flex;
+    justify-content: space-evenly;
+    color: #f9faf8;
+    margin: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+#button-bottom {
+    align-self: center;
+}
+
+footer {
+    background-color: #1f2937;
 }
