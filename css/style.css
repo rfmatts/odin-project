@@ -9,11 +9,14 @@ body {
 
 header {
     display: flex;
+    margin-left: 0px;
     justify-content: space-around;
     background-color: #1f2937;
 }
 
 h3 {
+    margin-top: 20px;
+    margin-left: 0px;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -22,7 +25,7 @@ h3 {
     width: 450px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin-top: 25px;
     align-content: center;
     font-size: 18px;
     color: #e5e7eb;
@@ -42,7 +45,7 @@ h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
-    /*border: red solid 2px;*/
+    margin-top: 0px;
     margin-bottom: 5px;
 }
 
@@ -76,11 +79,15 @@ button {
 #random {
     display: flex;
     justify-content: center;
+    height: 100px;
 }
 
 h2 {
-    font-size: 32px;
+    display: flex;
+    font-size: 36px;
     font-weight: bolder;
+    justify-content: center;
+    align-content: center;
 }
 
 #photos {
@@ -92,14 +99,15 @@ h2 {
 
 .photo {
     display: block;
-    height: 150px;
-    width: 150px;
+    height: 165px;
+    width: 165px;
     margin-left: 25px;
     margin-right: 25px;
     word-wrap: break-word;
     background-color: #f9faf8;
     border: #3882f6 solid 4px;
     border-radius: 15px;
+    color: transparent;
 }
 
 .subtext {
